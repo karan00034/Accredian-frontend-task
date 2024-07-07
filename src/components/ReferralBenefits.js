@@ -37,32 +37,33 @@ function ReferralBenefits() {
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>
+PG Certificate Program in Strategic Product Management</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Executive Program in Data Driven Product Management</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Executive Program in Product Management and Digital Transformation</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Executive Program in Product Management</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Advanced Certification in Product Management</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
               <tr>
-                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Professional Certificate Program in Product Management</td>
+                <td className="border-r px-4 py-2 flex items-center"><FaGraduationCap className='mr-2 text-blue-500 text-2xl'/>Executive Program in Product Management and Project Management</td>
                 <td className="border-r px-4 py-2">₹7,000</td>
                 <td className="border-r px-4 py-2">₹9,000</td>
               </tr>
