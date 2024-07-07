@@ -28,7 +28,7 @@ const PopupModal = ({ onClose }) => {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/api/referral', referralData);
+      const response = await axios.post('https://accredian-backend-task-jqs3.onrender.com/api/referral', referralData);
       console.log('Referral data submitted:', response.data);
       onClose(); // Close the modal after submission
     } catch (error) {
