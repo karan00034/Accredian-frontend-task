@@ -1,9 +1,20 @@
 import React from 'react';
 import { useState } from 'react';
 import abc from "./abc.png";
+import PopupModal from './Popup';
 
 function MainSection() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+ 
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -56,8 +67,11 @@ function MainSection() {
             <p className="text-3xl text-left text-gray-700 mr-4 ml-8">up-to</p>
             <p className="text-5xl text-left text-blue-600 font-bold">Rs. 15,000</p>
           </div>
-          <button className="bg-blue-700 text-white py-2 px-4 rounded mt-10 w-40 ml-8">Refer Now</button>
+          <button className="bg-blue-700 text-white py-2 px-4 rounded mt-10 w-40 ml-8" onClick={openModal}>Refer Now</button>
           <img src={abc} alt="Descriptive Alt Text" className="absolute bottom-0 right-0 h-full object-cover" />
+              {isModalOpen && (
+        <PopupModal onClose={closeModal} />
+      )}
         </div>
       </div>
         
